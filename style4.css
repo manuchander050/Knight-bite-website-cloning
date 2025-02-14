@@ -1,0 +1,221 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+}
+nav{
+    /* border: 2px solid; */
+    height: 110px;
+    background: rgba(0, 0, 0, .12);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 600px;
+    position: fixed;
+    width: 100%;
+    
+}
+img{
+    /* border: 2px solid; */
+    height: 80px;
+    width: 200px;
+}
+nav #div1 ol{
+    display: flex;
+    list-style: none;
+    font-weight: bold;
+    font-size: 17px;
+    justify-content:center;
+    gap: 40px;
+    width: 450px;
+    color:white;
+    
+
+}
+nav a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+nav a:hover{
+   color: blueviolet;
+}
+main{
+    height: 118vh;
+    width: 100%;
+    background-image: url(./Assets/video-bg.png);
+    background-size: 100%;
+}
+video {
+    object-fit: contain;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+main h1{
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 400;
+    color: white;
+    text-align: center;
+}
+main p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 400;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+button{
+    background: #ff5672;
+    width: 195px;
+    color: #fff;
+    font-size: 19px;
+    font-weight: 700;
+    border-radius: 40px;
+    cursor: pointer;
+    height: 40px;
+    border: none;
+   position: absolute;
+   left: 44%;
+  
+}
+main i{
+    font-size: 25px;
+    color: #ff5672;
+}
+main span{
+    cursor: pointer;
+    position: absolute;
+    left: 46%;
+}
+#section0{
+    /* border: 2px solid red; */
+    height: 2250px;
+    background: #f5f5f5;
+}
+#section1 #div1 h1{
+    font-size: 34px;
+    font-weight: 700;
+    font-family: 'Nunito';
+    text-align: center;
+}
+#section1 #div1 p{
+    font-size: 21px;
+    font-weight: 300;
+    font-family: 'Nunito';
+    text-align: center;
+}
+hr{
+    width: 85vw;
+    height: 3.5px;
+    position: absolute;
+    left: 100px;
+    right: 40px;
+    background: #c77bf4;
+}
+
+#section2 #aside1 img{
+   position: relative;
+   left: 32px;
+}
+#section2 h1{
+    font-weight: 600;
+    font-size: 20px;
+    color: #424242;
+    text-align: center;
+
+}
+#section2 p{
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+}
+#section2 #aside1{ 
+   display: flex;
+   justify-content: center;
+   gap: 50px;
+}
+#section2 >h1{
+    font-weight: 700;
+    font-size: 34px;
+    font-family: 'Nunito';
+    text-align: center;
+}
+#section2 #aside2 img{
+    position: relative;
+    left: 12%;
+ }
+ #section2 #aside2{ 
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+ }
+#section3 h1{
+    font-weight: 700;
+    font-size: 34px;
+    font-family: 'Nunito';
+    text-align: center;
+}
+#section3 p{
+    text-align: center;
+}
+#divv{
+    background-image: url(./Assets/apply-grid.png);
+    height: 520px;
+    background-size: contain;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#section4 img{
+    height: 40px;
+    width: 40px;
+}
+#section4 h1{
+    font-weight: 700;
+    font-size: 34px;
+    font-family: 'Nunito';
+    text-align: center;
+}
+#section4 h3{
+    font-weight: 600;
+    font-size: 1.16em;
+    color: #424242;
+}
+#section4 div{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+#section4 #maindiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+#section5 div{
+    height: 60px;
+    width: 60px;
+    background-color: #ff5672;
+    border-radius: 34px 8px 34px 34px;
+    box-shadow: 0 5px 4px 0 rgba(0, 0, 0, .26);
+    text-align: center;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+footer{
+    height: 50px;
+    background: linear-gradient(90deg, #C77BF4 0%, #FF5672 100%);
+    box-shadow: -5px -5px 19px rgba(0, 0, 0, .23);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    font-size: 15px;
+    font-weight: 400;
+}
